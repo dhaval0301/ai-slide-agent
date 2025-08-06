@@ -49,7 +49,7 @@ Ideal for:
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/slide-agent.git
+git clone https://github.com/dhaval0301/ai-slide-agent.git
 cd slide-agent
 ````
 
