@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from google_auth import get_google_creds
 import re
 
-# ✅ Create a new Google Slides presentation
+#  Create a new Google Slides presentation
 def create_presentation(title):
     creds = get_google_creds()
     service = build('slides', 'v1', credentials=creds)
@@ -11,7 +11,7 @@ def create_presentation(title):
     return presentation.get('presentationId'), presentation.get('title')
 
 
-# ✅ Create multiple slides from bullet-style text
+# Create multiple slides from bullet-style text
 def create_slides_from_bullets(presentation_id, raw_content):
     creds = get_google_creds()
     service = build('slides', 'v1', credentials=creds)
