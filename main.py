@@ -12,7 +12,7 @@ import os
 
 # Streamlit page setup
 st.set_page_config(page_title="Slide Agent", layout="centered")
-st.title("🎯 AI Slide Generator + Google Slides Export")
+st.title("AI Slide Generator + Google Slides Export")
 
 # Initialize session state
 if "content" not in st.session_state:
